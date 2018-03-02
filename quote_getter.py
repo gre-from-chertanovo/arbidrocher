@@ -87,6 +87,7 @@ yoba=[yobaQuotes['btc_usd'][0]/finexQuotes['BTCUSD'][0]-1, yobaQuotes['eth_usd']
 print(wex)
 print(yoba)
 
+#raschet vsyakoy huini
 zecUsdBtcY=((0.1*0.998*yobaQuotes['btc_usd'][0])/(1.002*yobaQuotes['zec_usd'][1])-0.02)*((0.998*wexQuotes['zec_usd'][0])/(wexQuotes['btc_usd'][1]*1.002))-0.1
 print('Yield BTC-ZEC-BTC through USD Yoba %s'%zecUsdBtcY)
 zecBtc=(1/(1.002*yobaQuotes['zec_btc'][1])-0.02)*0.998*(wexQuotes['zec_btc'][0])-1
