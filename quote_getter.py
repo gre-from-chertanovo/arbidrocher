@@ -82,6 +82,11 @@ for b in tickerFinex:
 
 print(finexQuotes)
 
+YWComp=[['btc_usd', 'btc_usd']]
+
+def yobaWexCompare():
+
+
 wex=[wexQuotes['btc_usd'][0]/finexQuotes['BTCUSD'][0]-1, wexQuotes['eth_usd'][0]/finexQuotes['ETHUSD'][0]-1,wexQuotes['zec_usd'][0]/finexQuotes['ZECUSD'][0]-1,wexQuotes['dsh_btc'][0]/finexQuotes['DSHBTC'][0]-1,wexQuotes['ltc_usd'][0]/finexQuotes['LTCUSD'][0]-1,wexQuotes['bch_usd'][0]/finexQuotes['BCHUSD'][0]-1]
 yoba=[yobaQuotes['btc_usd'][0]/finexQuotes['BTCUSD'][0]-1, yobaQuotes['eth_usd'][0]/finexQuotes['ETHUSD'][0]-1,yobaQuotes['zec_usd'][0]/finexQuotes['ZECUSD'][0]-1,yobaQuotes['dash_btc'][0]/finexQuotes['DSHBTC'][0]-1,yobaQuotes['ltc_usd'][0]/finexQuotes['LTCUSD'][0]-1,yobaQuotes['bcc_usd'][0]/finexQuotes['BCHUSD'][0]-1]
 print(wex)
